@@ -1,4 +1,19 @@
-iframe{
-width: 1000px; height: 500px;
+.menu{
+     border: 2px solid black;
+}
+
+button{
+     
+     margin:  0 0.3rem;
+}
+
+#frame{
+     width: 97.4vw;
+     height: 90vh;
+     border: 2px solid black;
+}
+
+.active{
+     background: rgb(156, 134, 122);
 }
 

@@ -2,11 +2,12 @@
 <html>
 	<head>
 		<title>Rich text editor in JS</title>
-		<script src="https://use.fontawesome.com/aac5c45839.js"></script>
+          <script src="https://use.fontawesome.com/aac5c45839.js"></script>
+          <link rel="stylesheet" href="./css/index.css">
 	</head>
 	<body onload="enableEditMode();">
-		<div>
-			<button onclick="execCmd('bold');"><i class="fa fa-bold"></i></button>
+		<div class="menu">
+			<button onclick="execCmd('bold');"><i class="active fa fa-bold"></i></button>
 			<button onclick="execCmd('italic');"><i class="fa fa-italic"></i></button>
 			<button onclick="execCmd('underline');"><i class="fa fa-underline"></i></button>
 			<button onclick="execCmd('strikeThrough');"><i class="fa fa-strikethrough"></i></button>
@@ -62,7 +63,7 @@
 			<button onclick="execCommandWithArg('insertImage', prompt('Enter the image URL', ''));"><i class="fa fa-file-image-o"></i></button>
 			<button onclick="execCmd('selectAll');">Select All</button>
 		</div>
-		<iframe name="richTextField" "></iframe>
+		<iframe id="frame" name="richTextField"></iframe>
           
           <script src="./js/index.js"></script>
 	</body>
