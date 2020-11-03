@@ -6,7 +6,8 @@
           <link rel="stylesheet" href="./css/index.css">
 	</head>
 	<body onload="enableEditMode();">
-		<div class="menu">
+          
+          <div class="menu">
 			<button onclick="execCmd('bold');"><i class="active fa fa-bold"></i></button>
 			<button onclick="execCmd('italic');"><i class="fa fa-italic"></i></button>
 			<button onclick="execCmd('underline');"><i class="fa fa-underline"></i></button>
@@ -33,13 +34,15 @@
 				<option value="H4">H4</option>
 				<option value="H5">H5</option>
 				<option value="H6">H6</option>
-			</select>
+               </select>
+               
 			<button onclick="execCmd('insertHorizontalRule');">HR</button>
 			<button onclick="execCommandWithArg('createLink', prompt('Enter a URL', 'http://'));"><i class="fa fa-link"></i></button>
 			<button onclick="execCmd('unlink');"><i class="fa fa-unlink"></i></button>
 			<button onclick="toggleSource();"><i class="fa fa-code"></i></button>
 			<button onclick="toggleEdit();">Toggle Edit</button>
-			<br />
+               <br />
+               
 			<select onchange="execCommandWithArg('fontName', this.value);">
 				<option value="Arial">Arial</option>
 				<option value="Comic Sans MS">Comic Sans MS</option>
@@ -48,7 +51,8 @@
 				<option value="Tahoma">Tahoma</option>
 				<option value="Times New Roman">Times New Roman</option>
 				<option value="Verdana">Verdana</option>
-			</select>
+               </select>
+               
 			<select onchange="execCommandWithArg('fontSize', this.value);">
 				<option value="1">1</option>
 				<option value="2">2</option>
@@ -57,12 +61,16 @@
 				<option value="5">5</option>
 				<option value="6">6</option>
 				<option value="7">7</option>
-			</select>
-			Fore Color: <input type="color" onchange="execCommandWithArg('foreColor', this.value);">
-			Background: <input type="color"  onchange="execCommandWithArg('hiliteColor', this.value);">
+               </select>
+               
+               Fore Color: <input type="color" onchange="execCommandWithArg('foreColor', this.value);">
+               
+               Background: <input type="color"  onchange="execCommandWithArg('hiliteColor', this.value);">
+               
 			<button onclick="execCommandWithArg('insertImage', prompt('Enter the image URL', ''));"><i class="fa fa-file-image-o"></i></button>
 			<button onclick="execCmd('selectAll');">Select All</button>
-		</div>
+          </div>
+          
 		<iframe id="frame" name="richTextField"></iframe>
           
           <script src="./js/index.js"></script>

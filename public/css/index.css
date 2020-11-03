@@ -1,3 +1,4 @@
+/*For meu list*/
 .menu{
      border: 2px solid black;
 }
@@ -7,13 +8,17 @@ button{
      margin:  0 0.3rem;
 }
 
+/*for writing frame*/
 #frame{
      width: 97.4vw;
      height: 90vh;
      border: 2px solid black;
 }
 
+
+/* For adding active class for sellected buttons
 .active{
      background: rgb(156, 134, 122);
 }
+*/
 

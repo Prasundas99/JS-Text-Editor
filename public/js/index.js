@@ -31,4 +31,5 @@ function toggleEdit() {
           richTextField.document.designMode = 'On';
           isInEditMode = true;
      }
+     
 }
