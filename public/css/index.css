@@ -1,24 +1,40 @@
+*{
+     margin:0;
+     padding:0;
+
+}
+
+body{
+ align-items: center;
+   padding-left: 1rem;
+    margin: 3vh 1rem;
+    padding-right: 1rem;
+    background-color: black;
+}
+
+
 /*For meu list*/
 .menu{
-     border: 2px solid black;
+     padding: 0.3rem 0.5rem 0.5rem 0.3rem;
+     background-color: aliceblue;
+     height: 10vh;
 }
 
 button{
-     
-     margin:  0 0.3rem;
+     padding: 0.2rem;
+     margin:  0.1rem 0.3rem;
+     font-size: 1rem;
+
 }
 
 /*for writing frame*/
 #frame{
-     width: 97.4vw;
-     height: 90vh;
-     border: 2px solid black;
+     width: 99.8%;
+     height: 80vh;
+    background-color: white;
 }
 
 
-/* For adding active class for sellected buttons
-.active{
-     background: rgb(156, 134, 122);
-}
-*/
+
+
 

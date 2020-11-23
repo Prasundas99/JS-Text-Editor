@@ -1,6 +1,7 @@
 var showingSourceCode = false;
 var isInEditMode = true;
 
+//To enable edit mode in editor
 function enableEditMode() {
      richTextField.document.designMode = 'On';
 }
@@ -22,6 +23,8 @@ function toggleSource() {
           showingSourceCode = true;
      }
 }
+
+//For toggle edit
 
 function toggleEdit() {
      if (isInEditMode) {
