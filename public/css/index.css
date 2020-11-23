@@ -14,7 +14,82 @@ body{
 
 
 /*For meu list*/
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+     .menu{
+     padding: 0.3rem 0.5rem 0.5rem 0.3rem;
+     background-color: aliceblue;
+     height: 8vh;
+}
+
+button{
+     padding: 1rem;
+     margin:  0.3rem 0.5rem;
+     font-size: 3rem;
+}
+
+.button{
+      padding: 0.2rem;
+     margin:  0.1rem 0.3rem;
+     font-size: 1rem;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+     body{
+          font-size: 2rem;
+     }
 .menu{
+     padding: 0.3rem 0.5rem 0.5rem 0.3rem;
+     background-color: aliceblue;
+     height: 20vh;
+}
+
+button{
+     padding: 1rem;
+     margin:  0.3rem 0.5rem;
+     font-size: 2rem;
+}
+
+.button{
+     padding: 1rem;
+     margin:  0.3rem 0.5rem;
+     font-size: 2rem;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+     body{
+          font-size: 2rem;
+     }
+.menu{
+     padding: 0.3rem 0.5rem 0.5rem 0.3rem;
+     background-color: aliceblue;
+     height: 18vh;
+}
+
+button{
+     padding: 0.8rem;
+     margin:  0.2rem 0.4rem;
+     font-size: 1.5rem;
+}
+
+.button{
+     padding: 0.8rem;
+     margin:  0.2rem 0.4rem;
+     font-size: 1.5rem;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+body{
+     font-size: 1rem;
+}
+     .menu{
      padding: 0.3rem 0.5rem 0.5rem 0.3rem;
      background-color: aliceblue;
      height: 10vh;
@@ -23,9 +98,41 @@ body{
 button{
      padding: 0.2rem;
      margin:  0.1rem 0.3rem;
-     font-size: 1rem;
-
+     font-size: 0.8rem;
 }
+
+.button{
+      padding: 0.2rem;
+     margin:  0.1rem 0.3rem;
+     font-size: 0.8rem;
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1600px) {
+    body{
+     font-size: 1.5rem;
+}
+     .menu{
+     padding: 0.3rem 0.5rem 0.5rem 0.3rem;
+     background-color: aliceblue;
+     height: 12vh;
+}
+
+button{
+      padding: 0.2rem;
+     margin:  0.1rem 0.7rem;
+     font-size: 1.8rem;
+}
+
+.button{
+      padding: 0.2rem;
+     margin:  0.1rem 1rem;
+     font-size: 1.5rem;
+} 
+}
+
+
 
 /*for writing frame*/
 #frame{
