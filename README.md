@@ -12,5 +12,4 @@ Compose beautifully formatted text in your web application. JS-Text-Editor is a 
 HTML,CSS,Js.
 
 ## Future plans
-  -Improve UI
   -add collaboration
