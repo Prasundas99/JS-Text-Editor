@@ -36,3 +36,5 @@ function toggleEdit() {
      }
      
 }
+
+module.export = execCmd;
